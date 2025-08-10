@@ -1,0 +1,56 @@
+// Leave sample test cases
+# Leave 1 - New hire, low salary, poor work-life balance
+{
+    "YearsAtCompany": 0,
+    "JobRole": "Engineer",
+    "SalaryLevel": "Low",
+    "OvertimeHours": 10,
+    "WorkLifeBalance": 1
+}
+
+# Leave 2 - High overtime
+{
+    "YearsAtCompany": 5,
+    "JobRole": "Sales",
+    "SalaryLevel": "Medium",
+    "OvertimeHours": 25,
+    "WorkLifeBalance": 3
+}
+
+# Leave 3 - Low salary and poor work-life balance
+{
+    "YearsAtCompany": 3,
+    "JobRole": "Support",
+    "SalaryLevel": "Low",
+    "OvertimeHours": 8,
+    "WorkLifeBalance": 2
+}
+
+// Stay sample test cases
+
+# Stay 1 - Long tenure, high salary, good balance, low overtime
+{
+    "YearsAtCompany": 10,
+    "JobRole": "Manager",
+    "SalaryLevel": "High",
+    "OvertimeHours": 5,
+    "WorkLifeBalance": 5
+}
+
+# Stay 2 - Medium salary, good balance, low overtime
+{
+    "YearsAtCompany": 7,
+    "JobRole": "Engineer",
+    "SalaryLevel": "Medium",
+    "OvertimeHours": 6,
+    "WorkLifeBalance": 4
+}
+
+# Stay 3 - High salary, long tenure, excellent work-life balance
+{
+    "YearsAtCompany": 15,
+    "JobRole": "HR",
+    "SalaryLevel": "High",
+    "OvertimeHours": 2,
+    "WorkLifeBalance": 5
+}

@@ -1,0 +1,53 @@
+// Delayed sample
+{
+    "Airline": "AirlineA",
+    "Distance": 435,
+    "DepartureHour": 0,
+    "Weather": "Storm",
+    "DayOfWeek": 6
+}
+// Rain + evening departure (>= 18) → Delayed
+{
+    "Airline": "AirlineB",
+    "Distance": 1200,
+    "DepartureHour": 20,
+    "Weather": "Rain",
+    "DayOfWeek": 3
+}
+//Long distance (> 2500 km) → Delayed
+{
+    "Airline": "AirlineC",
+    "Distance": 3200,
+    "DepartureHour": 14,
+    "Weather": "Clear",
+    "DayOfWeek": 5
+}
+
+// Ontime sample
+
+// Clear weather + short distance + morning
+{
+    "Airline": "AirlineA",
+    "Distance": 500,
+    "DepartureHour": 10,
+    "Weather": "Clear",
+    "DayOfWeek": 1
+}
+
+// Rain but early morning (< 18 hours) → On Time
+{
+    "Airline": "AirlineB",
+    "Distance": 1400,
+    "DepartureHour": 8,
+    "Weather": "Rain",
+    "DayOfWeek": 2
+}
+
+// Clear + medium distance + afternoon
+{
+    "Airline": "AirlineD",
+    "Distance": 1800,
+    "DepartureHour": 15,
+    "Weather": "Clear",
+    "DayOfWeek": 4
+}
